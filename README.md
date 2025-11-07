@@ -1,6 +1,14 @@
 ## CyberTigers BLE Capture the Flag
-The purpose of BLE CTF is to teach the core concepts of Bluetooth Low Energy client and server interactions.  While it has also been built to be fun, it was built with the intent to teach and reinforce core concepts that are needed to plunge into the world of Bluetooth hacking.  After completing this CTF, you should have everything you need to start fiddling with any BLE GATT device you can find.
+The purpose of BLE CTF is to teach the core concepts of Bluetooth Low Energy client and server interactions.  This project is forked from Hackgnar's original BLE-CTF. It was built with the intent to teach and reinforce core concepts that are needed to plunge into the world of Bluetooth hacking.  After completing this CTF, you should have everything you need to start fiddling with any BLE GATT device you can find.
 
+There are 10 devices that are distributed to 10 groups. Each device has a unique name that will make it easy for you to scan for and find.
+### Please do not connect to anyone else's device. 
+
+For those of you using Arch Linux, the AUR address for downloading the suite of tools known as Bluez is as follows:
+https://aur.archlinux.org/bluez-utils-compat.git
+
+Whereas you may use any Bluetooth connection tools you would like, the only tool we have used to successfully write flags is Gatttool from the Bluez suite. 
+This does not mean there are not other ways to accomplish the same thing. However, in this repo Gatttool is referenced many times for that reason. 
 
 ## Flags
 
